@@ -17,4 +17,5 @@ This repo contains the recommended exercises and code-alongs
 
 - [x] Chapter 3: Libraries
 
-- [ ] Chapter 4: Unit Testing and TDD - To Do List
+- [ ] Chapter 4: Unit Testing and TDD - To Do List:
+* Using 'assert' style of testing
