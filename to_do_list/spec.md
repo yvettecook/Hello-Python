@@ -2,8 +2,9 @@
 
 ### Spec
 
-CRUD:
 * Add an to-do item (create)
 * View the to-do's that have been created (retrieve)
-* Edit the information in a to-do (update)
-* Delete a to-do from the list (delete)
+
+Tested using Python's built in `assert` function.
+
+Next steps: For more info on testing, I'm now off to check out H. Percival's 'Test-Driven Development with Python'. And not just because it has a big picture of a goat on the cover.

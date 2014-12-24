@@ -15,7 +15,8 @@ This repo contains the recommended exercises and code-alongs
   * Basic functions
   * Defining own functions
 
+
 - [x] Chapter 3: Libraries
 
-- [ ] Chapter 4: Unit Testing and TDD - To Do List:
-  * Using 'assert' style of testing
+- [x] Chapter 4: Unit Testing and TDD - To Do List:
+  * Using the 'assert' style of testing
