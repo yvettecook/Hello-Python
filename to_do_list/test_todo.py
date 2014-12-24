@@ -14,4 +14,9 @@ def test_create_todo():
 
     print "ok - create_todo"
 
+def test_get_function():
+    assert todo.get_function('new') == todo.create_todo
+    print "ok - get function new"
+
 test_create_todo()
+test_get_function()
