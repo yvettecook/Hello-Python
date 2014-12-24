@@ -47,11 +47,25 @@ def test(todos, abcd, ijkl):
     abcd: edfg
     ijkl: mnlo """
 
+def show_todos(list):
+    output = ("Item    Title           "
+              "Description             Level\n")
+    for index, todo in enumerate(todos):
+        line = str(index+1).ljust(8)
+        for key, length in [('title', 16),
+                             ('description', 24),
+                             ('level', 16)]:
+            line += str(todo[key]).ljust(length)
+        output += line + "\n"
+    return output
+
+
 todos = []
 
 commands = {
     'new': [create_todo, ['title', 'description', 'level']],
     'test': [test, ['abcd', 'ijkl']],
+    'show': [show_todos, []]
 }
 
 
