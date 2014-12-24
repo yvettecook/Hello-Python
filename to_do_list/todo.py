@@ -28,8 +28,29 @@ def get_function(name):
 def get_fields(name):
     return commands[name][1]
 
+def run_command(user_input, data=None):
+    user_input = user_input.lower()
+    if user_input not in commands:
+        return user_input + "?" \
+            "I don't knwo what that command is."
+    else:
+        the_func = get_function(user_input)
+
+    if data is None:
+        the_fields = get_field(user_input)
+        data = get_input(the_fields)
+
+    return the_func(todos, **data)
+
+def test(todos, abcd, ijkl):
+    return """Command 'test' returned:
+    abcd: edfg
+    ijkl: mnlo """
+
+
 commands = {
     'new': [create_todo, ['title', 'description', 'level']],
+    'test': [test, ['abcd', 'ijkl']],
 }
 
 

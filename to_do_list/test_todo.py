@@ -22,6 +22,19 @@ def test_get_fields():
     assert (todo.get_fields('new') == ['title', 'description', 'level'])
     print "ok - get fields"
 
+def test_run_command():
+    result = todo.run_command(
+        'test',
+        {'abcd': 'edfg', 'ijkl': 'mnlo'}
+    )
+    expected = """Command 'test' returned:
+    abcd: edfg
+    ijkl: mnlo """
+    assert result == expected, \
+        result + " != " + expected
+    print "ok - run command"
+
 test_create_todo()
 test_get_function()
 test_get_fields()
+test_run_command()

@@ -9,13 +9,13 @@ This repo contains the recommended exercises and code-alongs
 
 
 - [x] Chapter 2: Hunt the Wumpus:
-* Basic syntax
-* For and while loops
-* Lists
-* Basic functions
-* Defining own functions
+  * Basic syntax
+  * For and while loops
+  * Lists
+  * Basic functions
+  * Defining own functions
 
 - [x] Chapter 3: Libraries
 
 - [ ] Chapter 4: Unit Testing and TDD - To Do List:
-* Using 'assert' style of testing
+  * Using 'assert' style of testing
