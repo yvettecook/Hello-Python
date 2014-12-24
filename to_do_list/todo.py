@@ -23,10 +23,13 @@ def get_input(fields):
     return user_input
 
 def get_function(name):
-    return commands[name]
+    return commands[name][0]
+
+def get_fields(name):
+    return commands[name][1]
 
 commands = {
-    'new': create_todo,
+    'new': [create_todo, ['title', 'description', 'level']],
 }
 
 
