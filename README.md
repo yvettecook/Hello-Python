@@ -7,9 +7,14 @@ This repo contains the recommended exercises and code-alongs
 
 ![hello_python_cover](http://www.manning.com/briggs/briggs_cover150.jpg)
 
-#### Chapter 2: Hunt the Wumpus:
+
+- [x] Chapter 2: Hunt the Wumpus:
 * Basic syntax
 * For and while loops
 * Lists
 * Basic functions
 * Defining own functions
+
+- [x] Chapter 3: Libraries
+
+- [ ] Chapter 4: Unit Testing and TDD - To Do List
