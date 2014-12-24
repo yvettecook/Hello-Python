@@ -30,6 +30,7 @@ def test_run_command():
     expected = """Command 'test' returned:
     abcd: edfg
     ijkl: mnlo """
+    print result
     assert result == expected, \
         result + " != " + expected
     print "ok - run command"
